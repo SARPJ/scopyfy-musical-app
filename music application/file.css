@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Montserrat:ital,wght@0,300;1,300&family=Mukta:wght@300&display=swap");
+body {
+  background-color: aliceblue;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  height: 65px;
+  background-color: black;
+  align-items: center;
+  color: aliceblue;
+}
+.logo img {
+  width: 50px;
+  margin: 8px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+nav ul li {
+  padding: 0 12px;
+}
+
+.container {
+  min-height: 75vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  margin: 23px auto;
+  width: 70%;
+  border-radius: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url(bg2.jpg);
+  background-repeat: no-repeat;
+  border-image-width: 60px;
+}
+.bottom {
+  position: sticky;
+  height: 130px;
+  background-color: rgb(12, 12, 12);
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+}
+
+#myprogressbanner {
+  width: 80vw;
+}
+
+.icons {
+  margin: 15px;
+}
+
+.icons i {
+  cursor: pointer;
+}
+
+.songitem {
+  margin: 34px 409px;
+  height: 50px;
+  display: flex;
+  background-color: white;
+  width: 65%;
+  color: black;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 34px;
+}
+
+.songitem img {
+  width: 43px;
+  margin: 0 23px;
+}
