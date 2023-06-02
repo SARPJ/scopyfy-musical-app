@@ -40,13 +40,12 @@ nav ul li {
   background-color: black;
   color: white;
   display: flex;
-  margin: 23px auto;
-  width: 70%;
+  margin: 20px auto;
+  width: 80%;
   border-radius: 12px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-image: url(bg2.jpg);
   background-repeat: no-repeat;
-  border-image-width: 60px;
 }
 .bottom {
   position: sticky;
@@ -62,6 +61,7 @@ nav ul li {
 
 #myprogressbanner {
   width: 80vw;
+  cursor: pointer;
 }
 
 .icons {
@@ -73,7 +73,7 @@ nav ul li {
 }
 
 .songitem {
-  margin: 34px 409px;
+  margin: 20px 550px;
   height: 50px;
   display: flex;
   background-color: white;
@@ -87,4 +87,24 @@ nav ul li {
 .songitem img {
   width: 43px;
   margin: 0 23px;
+  border-radius: 50px;
+}
+
+.songitem i {
+  cursor: pointer;
+}
+.timestamp {
+  margin-right: 38px;
+}
+
+.songinfo img {
+  width: 55px;
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
+}
+
+.songinfo {
+  font-size: 25px;
+  position: absolute;
+  left: 10vw;
 }
